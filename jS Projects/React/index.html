@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <script src="https://fb.me/react-15.0.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/6.1.19/browser.js"></script>
+    <title>React</title>
+  </head>
+  <body>
+    <script type="text/babel">
+    var helloworld = React.createClass({
+      render: function(){
+        return <div>
+        <h1>Hello World</h1>
+        <p>This is text</p>
+        </div>
+      }
+    });
+      React.render(<helloworld />, document.body);
+    </script>
+  </body>
+</html>
